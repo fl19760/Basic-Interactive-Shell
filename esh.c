@@ -221,7 +221,7 @@ void checkEnvPaths(char *env, char **args, int argCount) {
                 execute(currentPath, args, argCount);
             }
             else {
-                fprintf(stderr, "filepath doesnt exist/isn't executable!\n");
+                fprintf(stderr, "'%s' doesnt exist/isn't executable!\n", args[0]);
             }      
         }
         else {

@@ -13,3 +13,5 @@
 * A makefile is included to build esh, and can be run with 'make'.
 * #define's are included to change the maximum number of arguments read by esh, the maximum length of the arguments, and the maximum line length to be parsed from getline().
 * A DEBUG flag is included to see the contents being read in by getline(), and the recorded arguments within the getArgs structure. 0 = off (no DEBUG statements), 1 = on (DEBUG statements)
+## Screenshot
+![Alt text](/screenshot/sc.png?raw=true "sc")
